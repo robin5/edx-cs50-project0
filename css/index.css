@@ -1,57 +1,80 @@
-html, body {
-	height: 100%;
-	background: #000000;
+html,
+body {
+  height: 100%;
+  background: #000000;
 }
 
 .wrapper {
-	display: table;
-	height: 100%;
-	width: 100%;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+@media only screen and (max-width: 599px) {
+  header {
+    display: block;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    background-image: url(../img/face.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #111;
+  }
+  nav {
+    display: block;
+    height: 70%;
+    width: 100%;
+  }
+  nav div {
+    border-bottom: 1px solid #111;
+  }
 }
 
-header {
-	display: table-cell;
-	height: 100%;
-	width: 50%;
-	vertical-align: middle;
-	text-align: center;
-	background-image: url(../img/face.jpeg);
-	background-size: contain;
-	background-repeat: no-repeat;
+@media only screen and (min-width: 600px) {
+  header {
+    display: table-cell;
+    height: 100%;
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+    background-image: url(../img/face.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  nav {
+    display: table-cell;
+    height: 100%;
+    width: 50%;
+  }
 }
 
-nav {
-	display: table-cell;
-	height: 100%;
-	width: 50%;
-}
 nav div {
-	display: table;
-	height: 25%;
-	width: 100%;
+  display: table;
+  height: 25%;
+  width: 100%;
 }
 nav div h2 {
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #a-index-profile {
-	background-image: url(../img/man-profile.jpg);
-	background-size: cover;
+  background-image: url(../img/man-profile.jpg);
+  background-size: cover;
 }
 
 #a-index-resume {
-	background-image: url(../img/keyboard.jpeg);
-	background-size: cover;
+  background-image: url(../img/keyboard.jpeg);
+  background-size: cover;
 }
 
 #a-index-portfolio {
-	background-image: url(../img/code3.png);
-	background-size: cover;
+  background-image: url(../img/code3.png);
+  background-size: cover;
 }
 
 #a-index-contact {
-	background-image: url(../img/apple_iphone_mac-t1.jpg);
-	background-size: cover;
+  background-image: url(../img/apple_iphone_mac-t1.jpg);
+  background-size: cover;
 }
