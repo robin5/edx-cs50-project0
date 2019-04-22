@@ -21,12 +21,12 @@
   <body>
     <div class="wrapper">
       <!-- Header -->
-      <header id="top">
+      <header id="top" class="container-fluid">
         <h1>Contact</h1>
       </header>
 
       <!-- NAV -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <nav class="container-fluid navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="index.html">robin5</a>
         <button
           class="navbar-toggler"
@@ -59,6 +59,55 @@
           </ul>
         </div>
       </nav>
+      <main class="container">
+        <div class="row">
+      <section id="contact-direct" class="col-md-6 col-sm-12 sec-contact">
+        <h2>IMMEDIATE</h2>
+        <article>
+          <h3>EMAIL</h3>
+          <p>
+            jenny@tommy.tutone
+          </p>
+          <h3>TELEPHONE</h3>
+          <p>
+            8675-309
+          </p>
+          <h3>ADDRESS</h3>
+          <p>
+            R5 Productions<br>
+            1933 Fort Vancouver Way<br>
+            Vancouver, WA 98663
+          </p>
+        </article>
+      </section><!-- END OF contact-direct -->
+
+      <section id="send-message" class="col-md-6 col-sm-12 sec-contact">
+        <h2>SEND ME A MESSAGE</h2>
+        <article>
+          <form>
+          <div class="col-s-1-index col-1-index">
+            <label for="contact-input-first" >NAME</label>
+            <input id="contact-input-first" class="contact-input">
+          </div>
+
+          <div class="col-s-1-index col-1-index">
+            <label for="contact-input-email" >EMAIL ADDRESS</label>
+            <input id="contact-input-email" class="contact-input">
+          </div>
+          <div class="col-s-1-index col-2-index">
+            <label for="contact-input-phone" class="contact-label">PHONE</label>
+            <input id="contact-input-phone" class="contact-input">
+          </div>
+          <div class="col-s-1-index col-1-index">
+            <label for="contact-input-text" >MESSAGE</label>
+            <textarea id="contact-input-text" class="contact-input"></textarea>
+          </div>
+          <input type="submit" id="contact-submit" value="SEND">
+          </form>
+        </article>
+      </section><!-- END OF send-message -->
+    </div><!-- end of block -->
+    </main>
     </div>
 
     <script
