@@ -1,7 +1,11 @@
+
+$topic-accent-color: #E8A40C;   /* Mustard */
+
 html,
 body {
   height: 100%;
   background: #000000;
+  color: #FFF;
 }
 
 .wrapper {
@@ -9,6 +13,11 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.accent {
+  color: $topic-accent-color;
+}
+
 @media only screen and (max-width: 599px) {
   header {
     display: block;
@@ -52,16 +61,21 @@ nav div {
   display: table;
   height: 25%;
   width: 100%;
+  h2 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
 }
-nav div h2 {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+
+a, a:link, a:visited, a:hover, a:active {
+  color: white;
 }
 
 #a-index-profile {
   background-image: url(../img/man-profile.jpg);
   background-size: cover;
+  color: white;
 }
 
 #a-index-resume {
