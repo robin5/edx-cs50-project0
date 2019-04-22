@@ -1,0 +1,140 @@
+$section-accent-color: #1CEAC1; /* Teal */
+$topic-accent-color: #E8A40C;   /* Mustard */
+$gray-page-border: #666;        /* Gray */
+
+main {
+  margin: auto;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 480px) {
+
+  main {
+    line-height: 1.2;
+    font-size: 0.9em;
+    border: none;
+  }
+
+  section {
+    margin: 20px 5px 0 5px;
+    padding-bottom: 20px;
+    border-bottom: 5px dotted white;
+
+    h3 {
+      display: block;
+      float: left;
+      width: 98%;
+      color: $section-accent-color;
+    }
+
+    article {
+      display: block;
+      float: left;
+      width: 98%;
+    }
+  }
+
+  section:last-child {
+    border-bottom: none;
+  }
+}
+
+/* TABLET */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+  main {
+    width: 95%;
+    line-height: 1.3;
+    font-size: 1.1em;
+    border: 5px solid $gray-page-border;
+  }
+
+  section {
+    
+    margin: 40px 20px 0 20px;
+
+    h3 {
+      display: block;
+      float: left;
+      width: 98%;
+      color: $section-accent-color;
+    }
+
+    article {
+      display: block;
+      float: left;
+      width: 98%;
+    }
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1025px) {
+
+  main {
+    max-width: 1025px;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    border: 5px solid $gray-page-border;
+  }
+
+  section {
+
+    margin: 40px 20px 0 20px;
+
+    h3 {
+      display: block;
+      float: left;
+      width: 30%;
+      color: $section-accent-color;
+    }
+
+    article {
+      display: block;
+      float: left;
+      width: 70%;
+    }
+  }
+}
+
+article {
+  ul {
+    list-style-type: disc;
+    margin-left: 0;
+    padding-left: 1em;
+    li {
+      padding-left: 0.5em;
+    }
+  }
+}
+
+
+br {
+  clear: both;
+}
+
+.topic-accent {
+  color: $topic-accent-color;
+}
+
+.current {
+  color: $section-accent-color;
+}
+
+th {
+  color: $topic-accent-color;
+  margin-bottom: 5px;
+}
+
+th:first-child {
+  padding-left: 0;
+}
+th {
+  padding-left: 20px;
+}
+td:first-child {
+  padding-left: 0;
+}
+td {
+  padding-left: 20px;
+}
