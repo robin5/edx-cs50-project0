@@ -105,3 +105,21 @@ span.accent {
 .current {
   color: #1ceac1;
 }
+
+th {
+  color: #e8a40c;
+  margin-bottom: 5px;
+}
+
+th:first-child {
+  padding-left: 0;
+}
+th {
+  padding-left: 20px;
+}
+td:first-child {
+  padding-left: 0;
+}
+td {
+  padding-left: 20px;
+}
