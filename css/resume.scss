@@ -3,8 +3,10 @@ $topic-accent-color: #E8A40C;   /* Mustard */
 $gray-page-border: #666;        /* Gray */
 
 main {
-  margin: auto;
+  margin: 50px auto 0 auto;
+  padding: 20px 0 20px 0;
 }
+
 
 /* MOBILE */
 @media only screen and (max-width: 480px) {
@@ -72,7 +74,6 @@ main {
 @media only screen and (min-width: 1025px) {
 
   main {
-    max-width: 1025px;
     line-height: 1.4em;
     font-size: 1.2em;
     border: 5px solid $gray-page-border;

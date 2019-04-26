@@ -1,0 +1,25 @@
+/* File: header.css */
+
+body {
+	background-color: black;
+	color: white;
+	font-size: 100%;	
+	font: inherit;	
+}
+
+.header-image {
+	display: inline-block;
+	height: 100px;
+	margin-left: -15px;
+}
+
+.header-title {
+	box-sizing: border-box;
+	display: inline-block;
+	margin-left: 20px;
+	padding-top: 0;
+}
+
+.accent {
+  color: #E8A40C;
+}
