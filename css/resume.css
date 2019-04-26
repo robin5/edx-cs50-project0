@@ -2,7 +2,8 @@
 /* Mustard */
 /* Gray */
 main {
-  margin: auto;
+  margin: 50px auto 0 auto;
+  padding: 20px 0 20px 0;
 }
 
 /* MOBILE */
@@ -61,7 +62,6 @@ main {
 /* DESKTOP */
 @media only screen and (min-width: 1025px) {
   main {
-    max-width: 1025px;
     line-height: 1.4em;
     font-size: 1.2em;
     border: 5px solid #666;
