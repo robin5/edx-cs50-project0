@@ -16,6 +16,10 @@ body {
   color: #E8A40C;
 }
 
+h1.short-title {
+  display: none;
+}
+
 @media only screen and (max-width: 599px) {
   header {
     display: block;
@@ -26,6 +30,14 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     border-bottom: 1px solid #111;
+  }
+  header h1.long-title {
+    display: none;
+  }
+  header h1.short-title {
+    display: block;
+    position: relative;
+    top: 30px;
   }
 
   nav {
